@@ -1,0 +1,60 @@
+html,
+#root,
+.App{
+  position: relative;
+  color: wheat;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home{
+  margin: 50px 0 25px 0;
+}
+
+.main{
+  display: grid;
+  width: 100%;
+}
+
+.main input{
+  border: 1px solid wheat;
+  border-radius: 5px;
+  height: 60px;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.main button{
+  margin-top: 5px;
+  height: 60px;
+}
+
+#posts{
+  padding-bottom: 25px;
+}
+
+.post{
+  margin: 11px auto;
+  background-color: #333;
+  font-size: xx-large;
+  text-transform: capitalize;
+};
+
+.postBtns{
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+}
+.postBtn{
+  width:45px;
+  height:45px;
+  margin: 10px;
+}
+
+#postPost{
+  height: 120px;
+}
